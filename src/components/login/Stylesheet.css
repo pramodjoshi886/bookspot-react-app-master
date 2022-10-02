@@ -1,0 +1,254 @@
+.mobo{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 36px;
+    
+}
+
+::placeholder {
+  color:white;
+  opacity:0.7; 
+}
+
+
+.body{
+   border-top:solid 3px;
+   /* background-color:floralwhite; */
+   background-image: url("../../resources/bookspot-login.jpg");
+   background-size: cover;
+   background-position: center center;
+   border-bottom: solid 2px;
+   border-left: 20px;
+}
+
+.register{
+    text-align: center;
+    font-family:cursive;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-size: medium;
+    display: inline;
+    
+}
+
+.head{
+    text-align: center;
+    font-family:cursive;;
+}
+
+
+.side{
+    font-size: larger;  
+}
+
+.acc{
+    position: center;
+    text-align: center;
+    font-weight:medium;
+    font-size: x-large;
+    font-family: cursive;
+    display: inline;
+    padding-left: 630px;
+}
+
+.mob{
+    text-align: center;
+    font-size: small;
+}
+.mb2{
+    color:blue;
+    font-size: medium;
+    font-family:cursive;
+    text-decoration: underline;
+}
+
+.mb1{
+    font-size: medium;
+    padding-right: 20px;
+    font-family:cursive;
+}
+.h1{
+    text-align: center;
+
+}
+
+.acc2{
+   text-align: center;
+    font-weight:lighter;
+    font-size: 100;
+    font-family: cursive;
+    display: inline;
+    padding-left: 210px;
+    padding-right: 10px;
+}
+
+.acc3{
+    font-weight:lighter;
+    font-family: cursive;
+    display: inline;
+    padding-right: 220px;
+    color:blue;
+    text-decoration: underline;
+}
+.user{
+  text-align: center;
+  padding-right: 165px;
+  padding-bottom: 10px;
+  font-size:22px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.user1{
+  text-align: center;
+  padding-right: 240px;
+  padding-bottom: 10px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.user3{
+  text-align: center;
+  padding-right: 210px;
+  padding-bottom: 10px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=text],input[type=password],input[type=email] {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 30px;
+    width: 290px;
+    background:rgb(224, 255, 250);
+    display: inline;
+    /* font-family:'', Courier, monospace; */
+    font-weight: small;
+  }
+
+  input[type=text1]{
+
+    border:solid 2px;
+    border-radius: 80px;
+    height: 50px;
+    width: 990px;
+    background: top;
+    font-family:cursive;
+    font-size: 35px;
+    color:white;
+
+  }
+
+  .search{
+    text-align:start;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-size:55px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: cursive;
+    
+  }
+
+button1 {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  button1:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+button1:hover {
+    background-color: #2c974b;
+  }
+  
+  button1:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  button1:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  button1:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+  button2 {
+    appearance: none;
+    background-color:lightseagreen;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 10px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 600px;
+
+  }
+  
+  button2:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+button2:hover {
+    background-color: #2c974b;
+  }
+  
+  button2:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  button2:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  button2:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
